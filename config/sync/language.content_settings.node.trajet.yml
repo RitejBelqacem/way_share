@@ -1,0 +1,11 @@
+uuid: ce72e1e8-1e70-4c32-beef-782bd1b3e401
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.trajet
+id: node.trajet
+target_entity_type_id: node
+target_bundle: trajet
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,22 @@
+uuid: bf3442cf-96b3-4357-93d3-622a19441e11
+langcode: fr
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - way_share
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: way_share_help
+theme: way_share
+region: header
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Aide
+  label_display: '0'
+  provider: help
+visibility: {  }

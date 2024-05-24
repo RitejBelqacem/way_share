@@ -1,0 +1,11 @@
+# Main theme library.
+global:
+  js:
+    assets/js/bootstrap.js: {}
+    assets/js/custom.js: {}
+  css:
+    base:
+        assets/css/bootstrap.css: {}
+        assets/css/font-awesome.min.css: {}
+        assets/css/style.css: {}
+        assets/css/responsive.css: {}

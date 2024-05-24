@@ -1,0 +1,44 @@
+uuid: a529a110-c1eb-4f52-99ae-8c9c5082bb28
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.trajet.field_date
+    - field.field.node.trajet.field_description
+    - field.field.node.trajet.field_destination
+    - field.field.node.trajet.field_driver
+    - field.field.node.trajet.field_duration
+    - field.field.node.trajet.field_from
+    - field.field.node.trajet.field_nb_passagers
+    - field.field.node.trajet.field_price
+    - node.type.trajet
+  module:
+    - field_layout
+    - layout_discovery
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: node.trajet.teaser
+targetEntityType: node
+bundle: trajet
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_date: true
+  field_description: true
+  field_destination: true
+  field_driver: true
+  field_duration: true
+  field_from: true
+  field_nb_passagers: true
+  field_price: true
+  langcode: true

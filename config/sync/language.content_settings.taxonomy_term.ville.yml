@@ -1,0 +1,11 @@
+uuid: 7793ee4c-93df-48b9-9d7d-d6927896d2b0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.ville
+id: taxonomy_term.ville
+target_entity_type_id: taxonomy_term
+target_bundle: ville
+default_langcode: site_default
+language_alterable: false

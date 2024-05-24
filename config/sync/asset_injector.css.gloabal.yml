@@ -1,0 +1,53 @@
+uuid: 111428c4-a34b-4363-bf77-c344dd45c1a3
+langcode: fr
+status: true
+dependencies: {  }
+id: gloabal
+label: gloabal
+code: |-
+  body.gin-login .user-form-page__wallpaper img {
+      object-fit: contain !important;
+      background-color: white !important;
+  }
+  body.gin-login .user-form-page__user-form img {
+      width: 100%;
+      max-height: 104px;
+  }
+  .js-form-item-roles-administrator,.js-form-item-roles-authenticated{display : none !important;}
+  .slider_section .slider_container .detail_container .detail-box h1 {
+      font-family: "Open Sans", sans-serif;
+       text-transform: unset; 
+      font-weight: bold;
+      color: #fefdfc;
+      font-size: 2.5rem;
+      padding: 10px;
+  }
+  .layout-node-form__actions {
+      display: block !important;
+  }
+  .gin--edit-form .page-wrapper__node-edit-form .block-page-title-block .page-title {
+           margin: 13px !important;
+       }
+  .toolbar .toolbar-bar .toolbar-icon-menu-link-content9f21f233-a315-4252-af1f-7e81822e93cc:before {
+    -webkit-mask-image: url(/modules/custom/way_share_core/images/map.svg);
+    mask-image: url(/modules/custom/way_share_core/images/map.svg);
+  } 
+  .toolbar .toolbar-bar .toolbar-icon-menu-link-contentf5b3c472-ca2e-4b8a-9405-c8f8884808db:before {
+    -webkit-mask-image: url(/modules/custom/way_share_core/images/folder-plus.svg);
+    mask-image: url(/modules/custom/way_share_core/images/folder-plus.svg);
+  }  
+  .toolbar .toolbar-bar .toolbar-icon-system-admin-content:before {
+    -webkit-mask-image: url(/modules/custom/way_share_core/images/database.svg);
+    mask-image: url(/modules/custom/way_share_core/images/database.svg);
+  }
+  .toolbar .toolbar-bar .toolbar-icon-menu-link-content459ea7f6-4dcd-42a7-90cd-0ca29d9eb983:before {
+    -webkit-mask-image: url(/modules/custom/way_share_core/images/send.svg);
+    mask-image: url(/modules/custom/way_share_core/images/send.svg);
+  }
+
+  .menu-item__system-admin_content{margin-top : 30px;}
+media: all
+preprocess: true
+conditions: {  }
+contexts: {  }
+conditions_require_all: true

@@ -1,0 +1,14 @@
+uuid: 8275083b-85af-45ad-8804-652e67cf1c01
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.passager
+  module:
+    - user
+id: user_add_role_action.passager
+label: 'Ajouter le rôle Passager aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: passager

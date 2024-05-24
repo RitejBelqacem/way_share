@@ -1,0 +1,20 @@
+uuid: 1d47810e-bf78-48ae-bceb-06c2ff9560ab
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - way_share
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: way_share_page_title
+theme: way_share
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de page'
+  label_display: '0'
+  provider: core
+visibility: {  }

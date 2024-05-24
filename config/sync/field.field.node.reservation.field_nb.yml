@@ -1,0 +1,23 @@
+uuid: 772118bd-9a3e-41b5-8fb8-804db6cac985
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nb
+    - node.type.reservation
+id: node.reservation.field_nb
+field_name: field_nb
+entity_type: node
+bundle: reservation
+label: 'Nombre des places à reserver'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

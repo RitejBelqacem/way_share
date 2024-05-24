@@ -1,0 +1,5 @@
+name: 'way-share_core'
+type: module
+description: 'Module custom way_share'
+package: Custom
+core_version_requirement: ^10 || ^11

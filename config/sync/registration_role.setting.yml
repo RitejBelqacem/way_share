@@ -1,0 +1,7 @@
+_core:
+  default_config_hash: o1wWkhSOJotsHFgvzESaUOiTWhLak62cKBDyEtewAIM
+langcode: fr
+role_to_select:
+  conducteur: conducteur
+  passager: passager
+registration_mode: user

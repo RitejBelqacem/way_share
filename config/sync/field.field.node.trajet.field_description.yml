@@ -1,0 +1,24 @@
+uuid: 41ac4258-02ed-422a-9f58-1cd174e32270
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - filter.format.full_html
+    - node.type.trajet
+  module:
+    - text
+id: node.trajet.field_description
+field_name: field_description
+entity_type: node
+bundle: trajet
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text_long

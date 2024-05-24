@@ -1,0 +1,22 @@
+uuid: 1613a0a5-8561-4047-a5bb-e0ab4596b15f
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - way_share
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: way_share_primary_local_tasks
+theme: way_share
+region: highlighted
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Onglets principaux'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

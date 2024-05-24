@@ -1,0 +1,55 @@
+uuid: 77e0f14f-c72c-4ec1-8563-d80e340ba779
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.reservation.field_nb
+    - field.field.node.reservation.field_passager
+    - field.field.node.reservation.field_trajet
+    - node.type.reservation
+  module:
+    - field_layout
+    - layout_discovery
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: node.reservation.default
+targetEntityType: node
+bundle: reservation
+mode: default
+content:
+  field_nb:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_passager:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_trajet:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

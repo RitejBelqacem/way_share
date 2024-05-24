@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: fr
+uuid: 9c4a0eb5-f63b-4538-9ca8-81bb003f1ccb
+name: way-share
+mail: ritejbelqacem111@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /home
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: fr
+mail_notification: ''

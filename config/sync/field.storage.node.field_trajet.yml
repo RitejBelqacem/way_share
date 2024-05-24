@@ -1,0 +1,19 @@
+uuid: bff0448e-b33e-4a15-883d-62b61f0b623e
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_trajet
+field_name: field_trajet
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

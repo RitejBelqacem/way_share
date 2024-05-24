@@ -1,0 +1,23 @@
+uuid: 55d8a105-0654-48b5-b793-422d99bb6da9
+langcode: fr
+status: false
+dependencies:
+  module:
+    - node
+  theme:
+    - way_share
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: way_share_syndicate
+theme: way_share
+region: header
+weight: -2
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'Flux RSS'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

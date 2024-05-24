@@ -1,0 +1,22 @@
+uuid: fb850a45-b7de-4c7e-a9a4-77cb92b8942a
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - way_share
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: way_share_messages
+theme: way_share
+region: highlighted
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  label_display: '0'
+  provider: system
+visibility: {  }

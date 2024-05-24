@@ -1,0 +1,14 @@
+uuid: 0476554e-b4f0-4195-bc31-cea4e0c84cc9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.conducteur
+  module:
+    - user
+id: user_remove_role_action.conducteur
+label: 'Enlever le rôle Conducteur des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: conducteur

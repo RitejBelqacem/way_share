@@ -1,0 +1,34 @@
+uuid: 534f5733-ec9f-4a65-9bfe-ddd64c4b0fe4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+    - node.type.reservation
+    - node.type.trajet
+  module:
+    - filter
+    - node
+    - registration_role
+    - roleassign
+    - toolbar
+id: conducteur
+label: Conducteur
+weight: 4
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer account settings'
+  - 'administer permissions'
+  - 'administer registration roles'
+  - 'assign roles'
+  - 'cancel account'
+  - 'change own username'
+  - 'create reservation content'
+  - 'create trajet content'
+  - 'delete own reservation content'
+  - 'delete own trajet content'
+  - 'edit own trajet content'
+  - 'use text format full_html'

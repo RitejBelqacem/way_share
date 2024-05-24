@@ -1,0 +1,22 @@
+uuid: 9af289ac-2e29-4f72-b4c6-a78dd45c49f8
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - way_share
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: way_share_breadcrumbs
+theme: way_share
+region: breadcrumb
+weight: -8
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: "Fils d'ariane"
+  label_display: '0'
+  provider: system
+visibility: {  }

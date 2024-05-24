@@ -1,0 +1,26 @@
+uuid: cd582d1d-87bf-4df9-beb5-916b4cd31aa1
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - type_tray
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+  type_tray:
+    type_category: _none
+    type_thumbnail: ''
+    type_icon: ''
+    type_description: ''
+    existing_nodes_link_text: ''
+    type_weight: 0
+name: Trajet
+type: trajet
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,29 @@
+uuid: bba0f4f0-f340-4060-b5ea-b71c60255189
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_trajet
+    - node.type.reservation
+    - node.type.trajet
+id: node.reservation.field_trajet
+field_name: field_trajet
+entity_type: node
+bundle: reservation
+label: Trajet
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      trajet: trajet
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

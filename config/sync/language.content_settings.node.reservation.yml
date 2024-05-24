@@ -1,0 +1,11 @@
+uuid: f2797525-aeb7-4f1e-bce4-e3ec45ccf562
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.reservation
+id: node.reservation
+target_entity_type_id: node
+target_bundle: reservation
+default_langcode: site_default
+language_alterable: false

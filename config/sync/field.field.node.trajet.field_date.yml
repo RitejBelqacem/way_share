@@ -1,0 +1,21 @@
+uuid: 6d764258-dd48-42b2-81dd-3d17c05b1de9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.trajet
+  module:
+    - datetime
+id: node.trajet.field_date
+field_name: field_date
+entity_type: node
+bundle: trajet
+label: Date
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

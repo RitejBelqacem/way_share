@@ -1,0 +1,14 @@
+uuid: a246cda0-1e4a-4680-b6e0-f141112f0c7e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.conducteur
+  module:
+    - user
+id: user_add_role_action.conducteur
+label: 'Ajouter le rôle Conducteur aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: conducteur

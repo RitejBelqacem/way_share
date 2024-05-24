@@ -1,0 +1,23 @@
+uuid: f0dd7da9-9f2f-4ad0-8c9e-09f0c70ade7f
+langcode: fr
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - way_share
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: way_share_search_form_wide
+theme: way_share
+region: header
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulaire de recherche (large)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

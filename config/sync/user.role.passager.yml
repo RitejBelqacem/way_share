@@ -1,0 +1,28 @@
+uuid: e14b4d3f-7900-4237-82be-f406a4be2cea
+langcode: fr
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+    - node.type.reservation
+  module:
+    - filter
+    - node
+    - registration_role
+    - roleassign
+    - toolbar
+id: passager
+label: Passager
+weight: 5
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'administer account settings'
+  - 'administer registration roles'
+  - 'assign roles'
+  - 'cancel account'
+  - 'change own username'
+  - 'create reservation content'
+  - 'delete own reservation content'
+  - 'use text format full_html'

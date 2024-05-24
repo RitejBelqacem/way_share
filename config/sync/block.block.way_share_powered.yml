@@ -1,0 +1,22 @@
+uuid: 5610aeb7-23b9-4fe6-9723-825451719ec9
+langcode: fr
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - way_share
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: way_share_powered
+theme: way_share
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Propulsé par Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

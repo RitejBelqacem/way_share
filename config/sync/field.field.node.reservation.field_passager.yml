@@ -1,0 +1,25 @@
+uuid: faae7288-90ed-4577-88cf-6b3786bcfe21
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_passager
+    - node.type.reservation
+id: node.reservation.field_passager
+field_name: field_passager
+entity_type: node
+bundle: reservation
+label: Passager
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: current_user
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

@@ -1,0 +1,14 @@
+uuid: ecca5ef8-bee7-4f01-a27a-c50f9841942d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.passager
+  module:
+    - user
+id: user_remove_role_action.passager
+label: 'Enlever le rôle Passager des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: passager

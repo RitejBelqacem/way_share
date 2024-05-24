@@ -1,0 +1,7 @@
+way_share_core.home_page:
+  path: '/home'
+  defaults:
+    _controller: '\Drupal\way_share_core\Controller\FrontController::show'
+    _title: 'way share'
+  requirements:
+    _permission: 'access content'

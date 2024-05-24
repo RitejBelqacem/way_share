@@ -1,0 +1,19 @@
+uuid: 2b99ea8a-c2b2-4803-a482-304b9cb3b975
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_duration
+    - node.type.trajet
+id: node.trajet.field_duration
+field_name: field_duration
+entity_type: node
+bundle: trajet
+label: 'Durée de trajets'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

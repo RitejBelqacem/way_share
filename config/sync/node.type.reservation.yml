@@ -1,0 +1,26 @@
+uuid: 0b07b70a-403c-47fb-87c5-fbcec0275014
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - type_tray
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+  type_tray:
+    type_category: _none
+    type_thumbnail: ''
+    type_icon: ''
+    type_description: ''
+    existing_nodes_link_text: ''
+    type_weight: 0
+name: Réservation
+type: reservation
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
